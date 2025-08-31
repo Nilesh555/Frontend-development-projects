@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<head>
+    <title> portfolio website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-size: 23px;
+            cursor: pointer;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: yellow;
+            font-size: 1.5rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+        .left a {
+            font-size: 1.9rem;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .left a:hover {
+            color: yellow;
+            text-align: none;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            margin: 70px 0;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0px;
+        }
+        
+        .leftsection .btn {
+            padding: 11px;
+            background: #1e2167;
+            color:white;
+            border-radius: 9px;
+            border: 3px solid white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+            border-radius: 34px;
+            border-color: black;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228)
+        }
+
+        .text-gray {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228)
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vw;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vartical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -38px;
+            left: -9px;
+        }
+
+        .vartical-title {
+            position: relative;
+            top: 46px;
+            left: -20px;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .vartical-desc {
+            position: relative;
+            color: yellow;
+            width: 150px;
+            font-size: 11px;
+            top: 47px;
+            left: -20px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 223px;
+        }
+
+         footer .footer-center{
+             color: gray;
+             text-align: center;
+             padding: 12px 0px ;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> <a href="/"> Nilesh Portfolio </a> </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/"> Home </a> </li>
+                    <li> <a href="/"> About </a> </li>
+                    <li> <a href="/"> Service </a> </li>
+                    <li> <a href="/"> Projects </a> </li>
+                    <li> <a href="/"> Contact Me </a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection"> hi,my name is <span class="purple"> Nilesh Chudasama </span>
+                <div> and i am professional </div>
+                <span id="element"></span>
+                <div class="buttons">
+                  <button class="btn"> Download Resume  </button>
+                  <button class="btn"> Visit Github   </button>
+                </div>
+
+
+
+            </div>
+
+            <div class="rightsection">
+                <img src="img.jpg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray"> What i have done so far </span>
+            <h1> Past Experience </h1>
+            <div class="box">
+
+                <div class="vartical">
+                    <img class="image-top" src="icons8-html-5-48.png" alt="">
+                    <div class="vartical-title">
+                        Web Developer (2027-2040)
+                    </div>
+                    <div class="vartical-desc">
+                        Hello! I'm Nilesh Chudasama, a passionate web developer with
+                        a knack for creating dynamic and user-friendly websites.
+                        With a strong foundation in both front-end and back-end technologies,
+                        I specialize in building responsive and visually appealing web applications that
+                        provide seamless user experiences.
+                    </div>
+                </div>
+                <div class="vartical">
+                    <img class="image-top" src="icons8-nodejs-48.png" alt="">
+                    <div class="vartical-title">
+                        node.js Developer (2040-2050)
+                    </div>
+                    <div class="vartical-desc">
+                        "I am a passionate React.js developer with over 10 years of experience
+                        in building dynamic and responsive web applications.
+                    </div>
+                </div>
+                <div class="vartical">
+                    <img class="image-top" src="icons8-python-48.png" alt="">
+                    <div class="vartical-title">
+                        Python Developer (2050-2060)
+                    </div>
+                    <div class="vartical-desc">
+                        Hello! I'm Nilesh Chudasama, a passionate python Developer with
+                        a knack for creating dynamic and user-friendly websites.
+                        With a strong foundation in both front-end and back-end technologies,
+                        I specialize in building responsive and visually appealing web applications that
+                        provide seamless user experiences.
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first-footer">
+                <h1> Nilesh' s portfolio </h1>
+            </div>
+            <div class="second-footer">
+                <ul>
+                    <li> Home </li>
+                    <li> About </li>
+                    <li> Services </li>
+                    <li> Contact </li>
+                </ul>
+            </div>
+            <div class="third-footer">
+                <ul>
+                    <li> Home </li>
+                    <li> About </li>
+                    <li> Services </li>
+                    <li> Contact </li>
+                </ul>
+            </div>
+            <div class="four-footer">
+                <ul>
+                    <li> Home </li>
+                    <li> About </li>
+                    <li> Services </li>
+                    <li> Contact </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="footer-center">
+            Copyright &#169;  www.nileshportfolio.com | All Right reserved 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Developer', 'Video Editor', 'Graphic Designer'],
+            typeSpeed: 55,
+        });
+    </script>
+</body>
+
+</html>
